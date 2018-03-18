@@ -37,3 +37,9 @@ source("yourfunction.R")
 # execute the function
 yourfunction(3)
 yourfunction(4:10)
+
+# auto-print an integer sequence (not in a script)
+s <- 11:50
+s
+# explicitly print s
+print(s)
